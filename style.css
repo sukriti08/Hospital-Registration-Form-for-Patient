@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: darkred;
+}
+.container {
+    width: 49.5%;
+    background-color: rgb(185, 185, 236);
+    box-shadow: 1px 5px 10px grey;
+    border-radius: 10px;
+    
+}
+
+select.form-control {
+    -webkit-appearance: menulist !important;
+    -moz-appearance: menulist !important;
+    -ms-appearance: menulist !important;
+    -o-appearance: menulist !important;
+    appearance: menulist !important;
+}
