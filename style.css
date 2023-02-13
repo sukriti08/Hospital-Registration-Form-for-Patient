@@ -3,16 +3,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-h2{
-    color: darkred;
-}
-.container {
-    width: 49.5%;
     background-color: rgb(185, 185, 236);
-    box-shadow: 1px 5px 10px grey;
-    border-radius: 10px;
-    
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+.below-heading,
+h1 {
+    text-align: center;
+    color: rgb(236, 20, 20);
+}
+
+.address {
+    text-align: center;
+}
+
+.container1 {
+    width: 49%;
+    background-color: rgb(185, 185, 236);
+}
+
+.container2 {
+    width: 50%;
+    background-color: rgb(185, 185, 236);
 }
 
 select.form-control {
@@ -21,4 +37,73 @@ select.form-control {
     -ms-appearance: menulist !important;
     -o-appearance: menulist !important;
     appearance: menulist !important;
+}
+
+.Logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: 48%;
+    margin-right: 50%;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        background-color: lightblue;
+        margin: 0;
+        padding: 0;
+    }
+
+    .myform {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container1 {
+        width: 100%;
+    }
+    .container2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    body {
+        background-color: lightblue;
+    }
+
+    .myform {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container1 {
+        width: 100%;
+    }
+    .container2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1055px) {
+
+    body {
+        background-color: lightblue;
+    }
+
+    .myform {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container1 {
+        width: 100%;
+    }
+    .container2 {
+        width: 100%;
+    }
 }
